@@ -16,7 +16,7 @@ use ieee.numeric_std.all;
 	begin
 	
 	full_adder4b : entity work.full_adder_4b port map (
-       A => SW(3 downto 0), 
+        A => SW(3 downto 0), 
         B => SW(7 downto 4),
         Cin => SW(9),
 		  Cout => LEDG(7),
@@ -24,7 +24,7 @@ use ieee.numeric_std.all;
 	);
 	
 	LEDR(3 downto 0) <= SW(3 downto 0);
-   LEDR(4 downto 7) <= SW(4 downto 7);
+   LEDR(7 downto 4) <= SW(7 downto 4);
 	LEDR(9) <= SW(9);
 	
 		
