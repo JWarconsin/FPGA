@@ -43,27 +43,26 @@ begin
 	process(CLK)
 	begin
 		if(RSTn = '0' and SETn = '0') then
-		Qs <= '0';
+			Qs <= '0';
 		elsif (RSTn = '0' and SETn = '1') then
-		Qs <= '0';
+			Qs <= '0';
 		elsif(RSTn = '1' and SETn = '0') then
-		Qs <= '1';
+			Qs <= '1';
 		elsif(RSTn = '1' and SETn = '1') then
-		if (CLK'event and CLK = '1') then 
-		case JK is 
-			when"00" => 
-				Qs <= Qs;
-			when"01" =>
-				Qs <= '0';
-		   when"10" => 
-				Qs <= '1';
-			when"11" => 
-				Qs <= not(Qs);
-			when others =>
-				Qs <= Qs;
-				
-		end case;
-		end if;
+			if (CLK'event and CLK = '1') then 
+				case JK is 
+					when"00" => 
+						Qs <= Qs;
+					when"01" =>
+						Qs <= '0';
+					when"10" => 
+						Qs <= '1';
+					when"11" => 
+						Qs <= not(Qs);
+					when others =>
+						Qs <= Qs;	
+				end case;
+			end if;
 		end if;
 	end process;
 			Q <= Qs;
