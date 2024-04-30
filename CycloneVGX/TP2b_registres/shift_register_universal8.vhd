@@ -43,7 +43,7 @@ begin
 				elsif(SEL = "101") then
 					--Rotate right
 				
-					Reg <= Reg(6 downto 0) & Reg(7);	
+					Reg <= Reg(0) & Reg(7 downto 1);	
 				
 				elsif(SEL = "010") then
 					--Shift left

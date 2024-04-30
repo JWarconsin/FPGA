@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK_50_B6A'
+Slack : -2.914
+TNS   : -8.705
+
+Type  : Slow 1100mV 85C Model Setup 'bistable:bistable|current_state.A'
+Slack : -1.068
+TNS   : -8.921
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK_50_B6A'
+Slack : 0.264
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'bistable:bistable|current_state.A'
+Slack : 0.509
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'bistable:bistable|current_state.A'
+Slack : -0.538
+TNS   : -7.863
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK_50_B6A'
+Slack : -0.538
+TNS   : -3.143
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK_50_B6A'
+Slack : -2.584
+TNS   : -7.656
+
+Type  : Slow 1100mV 0C Model Setup 'bistable:bistable|current_state.A'
+Slack : -1.095
+TNS   : -9.055
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK_50_B6A'
+Slack : -0.031
+TNS   : -0.031
+
+Type  : Slow 1100mV 0C Model Hold 'bistable:bistable|current_state.A'
+Slack : 0.472
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'bistable:bistable|current_state.A'
+Slack : -0.538
+TNS   : -8.052
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK_50_B6A'
+Slack : -0.538
+TNS   : -3.099
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK_50_B6A'
+Slack : -2.384
+TNS   : -7.012
+
+Type  : Fast 1100mV 85C Model Setup 'bistable:bistable|current_state.A'
+Slack : -0.194
+TNS   : -1.277
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK_50_B6A'
+Slack : 0.134
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'bistable:bistable|current_state.A'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK_50_B6A'
+Slack : -0.370
+TNS   : -2.003
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'bistable:bistable|current_state.A'
+Slack : 0.155
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK_50_B6A'
+Slack : -1.855
+TNS   : -5.476
+
+Type  : Fast 1100mV 0C Model Setup 'bistable:bistable|current_state.A'
+Slack : -0.132
+TNS   : -0.807
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK_50_B6A'
+Slack : 0.120
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'bistable:bistable|current_state.A'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK_50_B6A'
+Slack : -0.410
+TNS   : -2.515
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'bistable:bistable|current_state.A'
+Slack : 0.150
+TNS   : 0.000
+
+------------------------------------------------------------

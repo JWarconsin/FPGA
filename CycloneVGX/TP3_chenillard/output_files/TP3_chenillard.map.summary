@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Tue Apr 30 10:31:30 2024
+Analysis & Synthesis Status : Successful - Tue Apr 30 12:05:15 2024
 Quartus Prime Version : 23.1std.0 Build 991 11/28/2023 SC Lite Edition
-Revision Name : TP2_registres
+Revision Name : TP3_chenillard
 Top-level Entity Name : toplevel
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 8
-Total pins : 22
+Total registers : 35
+Total pins : 15
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0
